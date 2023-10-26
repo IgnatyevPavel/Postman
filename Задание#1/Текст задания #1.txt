@@ -100,7 +100,7 @@ response:
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
-
+___
 EP_7
 Method: POST
 EndPoint: /user_info_2
