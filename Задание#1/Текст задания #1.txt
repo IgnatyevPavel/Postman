@@ -57,7 +57,6 @@ request url params:
  age: int
  salary: int
 
-
 response: 
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
@@ -69,12 +68,6 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 
-
-
-
-==================
-
-
 EP_5
 Method: GET
 EndPoint: /object_info_3
@@ -82,7 +75,6 @@ request url params:
  name: str
  age: int
  salary: int
-
 
 response: 
 {'name': name,
@@ -96,12 +88,6 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 
-
-
-
-==================
-
-
 EP_6
 Method: GET
 EndPoint: /object_info_4
@@ -110,17 +96,10 @@ request url params:
  age: int
  salary: int
 
-
 response: 
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
-
-
-
-
-==================
-
 
 EP_7
 Method: POST
@@ -129,7 +108,6 @@ request form data:
  name: str
  age: int
  salary: int
-
 
 response: 
 {'start_qa_salary': salary,
