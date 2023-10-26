@@ -43,18 +43,11 @@ request url params:
  age: int
  weight: int
 
-
 response: 
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
-
-
-
-
-==================
-
 
 EP_4
 Method: GET
