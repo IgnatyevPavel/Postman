@@ -14,7 +14,6 @@ request url params:
  name: str
  age: int
 
-
 response: 
 [
     “Str”,
@@ -29,16 +28,12 @@ request form data:
  age: int
  salary: int
 
-
 response: 
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
-
-
-
 
 ==================
 
