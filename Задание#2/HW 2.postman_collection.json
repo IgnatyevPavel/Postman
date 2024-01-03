@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "dcbeeb4d-bc2a-489f-a04a-eab810b25a95",
+		"_postman_id": "b6446b4a-a9d5-49f9-9795-de71872f0a27",
 		"name": "HW 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "19718599"
+		"_exporter_id": "20434144"
 	},
 	"item": [
 		{
@@ -20,8 +20,11 @@
 							"\r",
 							"// 3. Проверить, что в body приходит правильный string.\r",
 							"pm.test(\"Проверка ответа сервера (string)\", function () {\r",
-							"    pm.response.to.have.body(\"This is the first responce from server!ss\");\r",
+							"    console.log(pm.response.text()) // для отладки сообщения в консоли\r",
+							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!ss\");\r",
 							"});\r",
+							"\r",
+							"\r",
 							"\r",
 							""
 						],
