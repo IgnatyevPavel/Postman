@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "e804ffc0-b3de-4f02-bc77-1c156c2f5348",
+		"_postman_id": "eb7fef9e-bab9-46b2-aa46-bc37a33835c1",
 		"name": "HW 3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "19718599"
+		"_exporter_id": "20434144"
 	},
 	"item": [
 		{
@@ -698,15 +698,15 @@
 					]
 				},
 				"url": {
-					"raw": "http://54.157.99.22:80/curr_byn",
+					"raw": "http://162.55.220.72:5006/curr_byn",
 					"protocol": "http",
 					"host": [
-						"54",
-						"157",
-						"99",
-						"22"
+						"162",
+						"55",
+						"220",
+						"72"
 					],
-					"port": "80",
+					"port": "5006",
 					"path": [
 						"curr_byn"
 					]
