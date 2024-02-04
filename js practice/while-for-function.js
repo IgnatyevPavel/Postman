@@ -1,11 +1,11 @@
-var users = {
-    'person1': {'name': 'Vadim',
-              'age': 33},
-    'person2': {'name': 'Anna',
-              'age': 30},
-    'person3': {'name': 'Vika',
-              'age': [32, 25, 10]}
-};
+// var users = {
+//     'person1': {'name': 'Vadim',
+//               'age': 33},
+//     'person2': {'name': 'Anna',
+//               'age': 30},
+//     'person3': {'name': 'Vika',
+//               'age': [32, 25, 10]}
+// };
 // console.log(typeof users);
 
 // count = 0
@@ -23,9 +23,33 @@ var users = {
 //     count++
 // };
 
-let num = 0
-while (num < 5){
-    console.log(num);
-    num++;
-};
+// let num = 0
+// while (num < 5){
+//     console.log(num);
+//     num++;
+// };
 
+// let codes = [100, 200, 300, 400, 500];
+// for (let yolochka in codes){
+//     console.log('I --=--', codes[3])
+// }
+
+let codes = [100, 200, 300, 400, 500];
+console.log('array--=--', codes);
+for (let yolochka in codes){
+    console.log('I --=--', codes[yolochka])
+    if (codes[yolochka] == 300){
+        codes[yolochka] = 700;
+}; 
+}
+console.log('new array -', codes);
+
+// let codes2 = [100, 200, 300, 400, 500];
+// console.log('array--=--', codes);
+// for (let yolochka in codes2) {
+//     console.log('I --=--', codes2[yolochka])
+//     if(codes2[yolochka] == 300){
+//         codes2[yolochka] = 999
+// }
+// };
+// console.log('new array -', codes); 
