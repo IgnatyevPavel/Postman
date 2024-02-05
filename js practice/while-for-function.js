@@ -34,15 +34,15 @@
 //     console.log('I --=--', codes[3])
 // }
 
-let codes = [100, 200, 300, 400, 500];
-console.log('array--=--', codes);
-for (let yolochka in codes){
-    console.log('I --=--', codes[yolochka])
-    if (codes[yolochka] == 300){
-        codes[yolochka] = 700;
-}; 
-}
-console.log('new array -', codes);
+// let codes = [100, 200, 300, 400, 500];
+// console.log('array--=--', codes);
+// for (let yolochka in codes){
+//     console.log('I --=--', codes[yolochka])
+//     if (codes[yolochka] == 300){
+//         codes[yolochka] = 700;
+// }; 
+// }
+// console.log('new array -', codes);
 
 // let codes2 = [100, 200, 300, 400, 500];
 // console.log('array--=--', codes);
@@ -53,3 +53,51 @@ console.log('new array -', codes);
 // }
 // };
 // console.log('new array -', codes); 
+// let sto = 100;
+// let n2 = 200;
+// let sravnenie = sto > n2;
+
+// // let chivo = 1
+// // console.log(Boolean(chivo));
+
+// if (chivo){
+//     console.log('всё нормац, пример истиннный')
+// } else {
+//     console.log('всё плохо, переделывай')
+// }
+
+// let day = mon;
+// let days = [mon,tue,wed,thu,fri,sat,sun];
+
+
+// let hour = 2222
+
+// if (hour >= 0 && hour <= 23){
+//     if (hour >= 8 && hour < 18){
+//     console.log('магазин открыт!');
+//         if (hour >= 8 && hour <= 12){
+//         console.log('Скидка 10 проц с 8 до 12 активна')
+//     }
+//     } else {
+//         console.log('лавочка закрыта, приходи попозже')
+//     }
+// } else {
+//     console.log('некоректное время ')
+// }
+
+let hour = 2222;
+if (hour >= 0 && hour <= 23){ 
+    if (hour >= 8 && hour < 18){
+        console.log('магазин открыт!');
+            if (hour <= 12){
+                console.log('Скидка 10 проц с 8 до 12 активна');
+            } 
+    } else { 
+        console.log('лавочка закрыта, приходи попозже');
+    }
+} else {
+    console.log('некорректное время'); 
+}
+
+function workDays() {console.log("This function is called"); }
+workDays();
