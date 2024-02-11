@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "b0c2ab7f-c3da-472b-9749-346843782305",
+		"_postman_id": "cfcfaa30-8707-4956-8bb3-282b4d91f6f2",
 		"name": "HW 1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20434144"
 	},
 	"item": [
 		{
-			"name": "EP_1 get_method",
+			"name": "EP_1 /get_method",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -34,7 +34,7 @@
 			"response": []
 		},
 		{
-			"name": "EP_2 user_info_3",
+			"name": "EP_2 /user_info_3",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -65,30 +65,13 @@
 					],
 					"path": [
 						"user_info_3"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Pavel",
-							"disabled": true
-						},
-						{
-							"key": "age",
-							"value": "29",
-							"disabled": true
-						},
-						{
-							"key": "salary",
-							"value": "0",
-							"disabled": true
-						}
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "EP_3 object_info_1",
+			"name": "EP_3 /object_info_1",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -119,12 +102,12 @@
 			"response": []
 		},
 		{
-			"name": "EP_4 object_info_2",
+			"name": "EP_4 /object_info_2",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/object_info_2?name=Pavel&age=29&salary=300",
+					"raw": "{{url}}/object_info_2?name=Pavel&age=29&salary=500",
 					"host": [
 						"{{url}}"
 					],
@@ -142,7 +125,7 @@
 						},
 						{
 							"key": "salary",
-							"value": "300"
+							"value": "500"
 						}
 					]
 				}
@@ -150,12 +133,12 @@
 			"response": []
 		},
 		{
-			"name": "EP_5 object_info_3",
+			"name": "EP_5 /object_info_3",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/object_info_3?name=Pavel&age=29&salary=300",
+					"raw": "{{url}}/object_info_3?name=Pavel&age=29&salary=500",
 					"host": [
 						"{{url}}"
 					],
@@ -173,7 +156,7 @@
 						},
 						{
 							"key": "salary",
-							"value": "300"
+							"value": "500"
 						}
 					]
 				}
@@ -181,12 +164,12 @@
 			"response": []
 		},
 		{
-			"name": "EP_6 object_info_4",
+			"name": "EP_6 /object_info_4",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/object_info_4?name=Pavel&age=29&salary=300",
+					"raw": "{{url}}/object_info_4?name=Pavel&age=29&salary=500",
 					"host": [
 						"{{url}}"
 					],
@@ -204,7 +187,7 @@
 						},
 						{
 							"key": "salary",
-							"value": "300"
+							"value": "500"
 						}
 					]
 				}
@@ -212,7 +195,7 @@
 			"response": []
 		},
 		{
-			"name": "EP_7 user_info_2",
+			"name": "EP_7 /user_info_2",
 			"request": {
 				"method": "POST",
 				"header": [],
